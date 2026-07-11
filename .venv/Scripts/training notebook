@@ -1,4 +1,0 @@
-import joblib
-def load_model():
-    return joblib.load("model.random_forest_model")
-
