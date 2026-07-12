@@ -224,8 +224,10 @@ https://ai-stock-prediction-api.onrender.com/docs
 ---
 
 Disclaimer:
-This project is intended for educational purposes only. It does not provide financial or investment advice.
-Predictions are generated using historical market data and machine learning techniques and should not be used as the sole basis for investment decisions.
+This project is intended for educational purposes only.
+It does not provide financial or investment advice.
+Predictions are generated using historical market data and machine learning techniques. 
+This should not be used as the sole basis for investment decisions.
 
 ---
 
