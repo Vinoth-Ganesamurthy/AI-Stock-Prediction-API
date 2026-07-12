@@ -1,14 +1,12 @@
-# 📈 AI Stock Prediction API
-
-A Machine Learning REST API built with **FastAPI** that predicts whether a stock is likely to move **UP** or **DOWN** using live market data from Yahoo Finance and a Random Forest model.
-
----
-
 ![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.116-green?logo=fastapi)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange?logo=scikitlearn)
 ![Render](https://img.shields.io/badge/Deployed%20on-Render-46E3B7?logo=render)
 ![License](https://img.shields.io/badge/License-MIT-blue)
+
+# 📈 AI Stock Prediction API
+
+A Machine Learning REST API built with **FastAPI** that predicts whether a stock is likely to move **UP** or **DOWN** using live market data from Yahoo Finance and a Random Forest model.
 
 ---
 
@@ -162,30 +160,50 @@ Example Response
   "prediction": "DOWN",
   "confidence": 64
 }
+
+```
+## 📡 API Endpoint
+
+### POST `/predict`
+
+Example Request
+
+```json
+{
+  "symbol": "INVALID123.NS"
+}
 ```
 
+Example Response
+
+```json
+{
+  "error": "No data found for symbol 'INVALID123.NS'."
+}
 ---
 
 ## 🧠 Machine Learning Workflow
 
 ```
-User Request
-      │
-      ▼
-Yahoo Finance
-      │
-      ▼
-Feature Engineering
-      │
-      ▼
-Random Forest Model
-      │
-      ▼
-Prediction
-      │
-      ▼
-JSON Response
-```
+                 User
+                   │
+                   ▼
+            FastAPI REST API
+                   │
+                   ▼
+          Yahoo Finance API
+                   │
+                   ▼
+         Feature Engineering
+                   │
+                   ▼
+      Random Forest Classifier
+                   │
+                   ▼
+      Prediction + Confidence
+                   │
+                   ▼
+             JSON Response
 
 ---
 
@@ -208,6 +226,21 @@ https://ai-stock-prediction-api.onrender.com
 - Authentication and API keys
 - Docker support
 - CI/CD pipeline
+
+---
+
+## Key Learning Outcomes
+
+- Built REST APIs with FastAPI
+- Integrated live financial data using Yahoo Finance
+- Engineered technical indicators (RSI, MACD, Bollinger Bands, Moving Averages)
+- Served machine learning predictions using Scikit-learn
+- Deployed a production-ready API using Render
+- Managed source code with Git and GitHub
+
+---
+
+Disclaimer: This project is intended for educational purposes only. It does not provide financial or investment advice. Predictions are generated using historical market data and machine learning techniques and should not be used as the sole basis for investment decisions.
 
 ---
 
