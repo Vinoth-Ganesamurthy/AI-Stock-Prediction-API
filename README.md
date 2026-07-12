@@ -184,10 +184,6 @@ Example Response
 
 ## 🧠 Machine Learning Workflow
 
-```
-
-## 🧠 Machine Learning Workflow
-
 <p align="center">
   <img src="assets/workflow-diagram.png" alt="Machine Learning Workflow" width="700"/>
 </p>
