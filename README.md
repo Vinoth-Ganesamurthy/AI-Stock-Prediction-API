@@ -181,7 +181,7 @@ Example Response
   "error": "No data found for symbol 'INVALID123.NS'."
 }
 
-```markdown
+
 ```
 
 ## 🧠 Machine Learning Workflow
