@@ -192,13 +192,11 @@ Example Response
 
 ```
 
-## 🌐 Deployment
-
-The API is deployed on Render.
-
-Live URL
-
+**Live API:**  
 https://ai-stock-prediction-api.onrender.com
+
+**Swagger Documentation:**  
+https://ai-stock-prediction-api.onrender.com/docs
 
 ---
 
