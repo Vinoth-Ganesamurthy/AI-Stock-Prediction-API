@@ -12,13 +12,15 @@ A Machine Learning REST API built with **FastAPI** that predicts whether a stock
 
 ## 🚀 Live Demo
 
-**API URL**
-
+**API Root (Status)**  
 https://ai-stock-prediction-api.onrender.com
 
-**Swagger Documentation**
+Returns basic information indicating that the API is running.
 
+**Interactive API Documentation (Swagger UI)**  
 https://ai-stock-prediction-api.onrender.com/docs
+
+Use this page to explore and test the API endpoints directly from your browser.
 
 ---
 
